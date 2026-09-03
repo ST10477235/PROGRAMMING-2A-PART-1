@@ -1,0 +1,45 @@
+name: Repository Structure CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate-repository:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Validate required repository files
+        run: |
+          echo "Checking required repository structure..."
+
+          test -d "docs" || {
+            echo "ERROR: docs folder is missing."
+            exit 1
+          }
+
+          test -f "docs/SECTION A.pdf" || {
+            echo "ERROR: SECTION A.pdf is missing."
+            exit 1
+          }
+
+          test -f "docs/SECTION B.pdf" || {
+            echo "ERROR: SECTION B.pdf is missing."
+            exit 1
+          }
+
+          test -f "docs/FINALISED SQL FOR RACEDAY.sql" || {
+            echo "ERROR: FINALISED SQL FOR RACEDAY.sql is missing."
+            exit 1
+          }
+
+          test -f "docs/SECTION C.docx" || {
+            echo "ERROR: SECTION C.docx is missing."
+            exit 1
+          }
+
+          echo "All required submission files are present."
+          echo "Repository structure validation passed."
