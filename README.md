@@ -179,3 +179,5 @@ Required files:
 * docs/SECTION C.docx
 
 The workflow successfully completes when all required files are present.
+
+<img width="1920" height="1020" alt="Screenshot 2026-09-03 132608" src="https://github.com/user-attachments/assets/72cd69e5-c63a-4549-9b01-b324d126449f" />
