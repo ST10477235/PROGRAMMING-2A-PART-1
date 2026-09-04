@@ -163,7 +163,7 @@ The participant's performance history is updated from the recorded results.
 
 The project demonstration video will be available on YouTube.
 
-YouTube video: [Coming soon]
+YouTube video: [https://youtu.be/j_7NwIMBuaY]
 
 ## CI/CD Validation
 
@@ -181,3 +181,15 @@ Required files:
 The workflow successfully completes when all required files are present.
 
 <img width="1920" height="1020" alt="Screenshot 2026-09-03 132608" src="https://github.com/user-attachments/assets/72cd69e5-c63a-4549-9b01-b324d126449f" />
+
+## References
+
+Ambassador Team (2025) ‘A Comprehensive Guide to API Endpoints’, Gravitee, 1 December. Available at: https://www.gravitee.io/blog/guide-api-endpoints (Accessed: 19 August 2026).
+
+Coronel, C. and Morris, S. (2018) Database Principles: Fundamentals of Design, Implementation, and Management. 3rd edn. Boston, MA: Cengage Learning.
+
+Database Star (2019) ‘A Guide to the Entity Relationship Diagram (ERD)’. Available at: https://www.databasestar.com/entity-relationship-diagram/ (Accessed: 19 August 2026).
+
+Requestly (2025) ‘API Endpoint: What Is It and How Does It Work?’, Requestly. Available at: https://requestly.com/blog/api-endpoint/ (Accessed: 19 August 2026).
+
+W3Schools (n.d.) SQL Tutorial. Available at: https://www.w3schools.com/sql/default.asp (Accessed: 21 August 2026).
