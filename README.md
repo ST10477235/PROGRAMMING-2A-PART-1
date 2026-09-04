@@ -180,7 +180,13 @@ Required files:
 
 The workflow successfully completes when all required files are present.
 
+## CI/CD Workflow
+
 <img width="1920" height="1020" alt="Screenshot 2026-09-03 132608" src="https://github.com/user-attachments/assets/72cd69e5-c63a-4549-9b01-b324d126449f" />
+
+## CI/CD Builds
+
+<img width="1920" height="1020" alt="Screenshot 2026-09-04 062735" src="https://github.com/user-attachments/assets/7e291155-3ca3-45d6-ad05-c0f392fb3456" />
 
 ## References
 
